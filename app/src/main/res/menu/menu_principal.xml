@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item android:id="@+id/menus_configuracion"
+    android:icon="@drawable/ic_baseline_settings_24"
+    android:title="@string/menu_configuracion"
+    app:showAsAction="always"
+    />
+    <item android:id="@+id/menus_usuario"
+        android:icon="@drawable/ic_usuarios"
+        android:title="@string/menu_usuario"
+        app:showAsAction="always"
+        />
+    <item android:id="@+id/menus_acercade"
+       android:title="@string/acerca_de"
+        app:showAsAction="never"
+        />
+</menu>
